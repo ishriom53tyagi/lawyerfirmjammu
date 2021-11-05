@@ -1,0 +1,112 @@
+.zen-skillbar {
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    background: rgb(238, 238, 238);
+    height: 30px;
+    border-radius: 3px;
+    transition: width 0.4s linear 0s, background-color;
+}
+
+.zen-skillbar-title {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 36%;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    background: rgb(106, 220, 250);
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.zen-skillbar-title span {
+    display: block;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0px 20px 0px 10px;
+    height: 30px;
+    line-height: 30px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.zen-skillbar-bar {
+    height: 30px;
+    width: 0px;
+    background: rgb(106, 220, 250);
+    border-radius: 3px;
+}
+
+.zen-skill-bar-percent {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    font-size: 11px;
+    height: 35px;
+    line-height: 35px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.skill-count-item,
+.skill-circle-item {
+    float: left;
+    margin-left: 2%;
+    text-align: center;
+}
+
+.skill-count-item0 {
+    margin-left: 0px;
+}
+
+.skill-count-items-1 {
+    width: 100%;
+    margin: 0px;
+}
+
+.skill-count-items-2 {
+    width: 48%;
+}
+
+.skill-count-items-3 {
+    width: 31% !important;
+}
+
+.skill-count-items-4 {
+    width: 23%;
+}
+
+@media screen and (max-width: 700px) {
+    .skill-count-item,
+    .skill-circle-item {
+        margin: 0px;
+        width: 100% !important;
+    }
+}
+
+.circliful {
+    position: relative;
+}
+
+.circle-text,
+.circle-info,
+.circle-text-half,
+.circle-info-half {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+    left: 0px;
+}
+
+.circle-info,
+.circle-info-half {
+    color: rgb(153, 153, 153);
+}
+
+.circliful .fa {
+    margin: -10px 3px 0px;
+    position: relative;
+    bottom: 4px;
+}

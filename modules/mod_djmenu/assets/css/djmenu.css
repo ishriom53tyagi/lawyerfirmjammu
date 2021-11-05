@@ -1,0 +1,191 @@
+.dj-main {
+    list-style: none;
+    height: 44px;
+    position: relative;
+    z-index: 500;
+    font-family: arial, verdana, sans-serif;
+    width: auto;
+    border-left: 0px solid rgb(29, 42, 54);
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.dj-main li.dj-up {
+    position: relative;
+    display: block;
+    float: left;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.dj-main li a.dj-up_a {
+    display: block;
+    float: right;
+    height: 44px;
+    line-height: 33px;
+    color: rgb(68, 68, 68);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0px 0px 0px 15px;
+    cursor: pointer;
+}
+
+.dj-main li a.dj-up_a span {
+    float: left;
+    display: block;
+    padding: 5px 15px 5px 0px;
+    height: 44px;
+    border-right: 0px solid rgb(29, 42, 54);
+}
+
+.dj-main li a.dj-up_a span.dj-drop {
+    padding: 0px 25px 0px 0px;
+    background: none;
+}
+
+.dj-main li:hover a.dj-up_a,
+.dj-main li.active a.dj-up_a {}
+
+.dj-main li:hover a.dj-up_a span,
+.dj-main li.active a.dj-up_a span {
+    background: right top no-repeat;
+}
+
+.dj-main li:hover a.dj-up_a span.dj-drop,
+.dj-main li.active a.dj-up_a span.dj-drop {
+    background: right top no-repeat;
+    padding-bottom: 3px;
+}
+
+.dj-main li.separator>a {
+    cursor: default;
+}
+
+.dj-main li a.dj-up_a span span.image-title {
+    background: none;
+    padding: 0px 0px 0px 5px;
+    display: inline;
+    float: none;
+    height: auto;
+}
+
+.dj-main img {
+    border: 0px;
+    margin: 0px;
+}
+
+.dj-main li:hover {
+    position: relative;
+    z-index: 200;
+}
+
+.dj-main li:hover ul.dj-submenu {
+    left: 1px;
+    top: 45px;
+    background: rgb(102, 102, 102);
+    padding: 0px;
+    border: 0px solid rgb(11, 77, 151);
+    width: auto;
+    height: auto;
+    z-index: 300;
+    text-align: left;
+}
+
+.dj-main li:hover ul.dj-submenu li {
+    display: block;
+    height: auto;
+    position: relative;
+    float: left;
+    width: 190px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.dj-main li:hover ul.dj-submenu li a {
+    display: block;
+    font-size: 12px;
+    height: auto;
+    width: auto;
+    line-height: 26px;
+    color: rgb(94, 94, 94);
+    text-decoration: none;
+    border: 0px solid rgb(87, 111, 133);
+    padding: 5px 0px;
+    text-align: left;
+}
+
+.dj-main li ul.dj-submenu li a.dj-more {
+    background: 180px 6px no-repeat rgb(68, 68, 68);
+}
+
+.dj-main li:hover ul.dj-submenu li a:hover,
+.dj-main li ul.dj-submenu li a.active,
+.dj-main li ul.dj-submenu li li a.active,
+.dj-main li ul.dj-submenu li li li a.active {
+    background: rgb(68, 68, 68);
+    color: rgb(51, 51, 51);
+}
+
+.dj-main li:hover ul.dj-submenu li a.dj-more:hover {
+    background: 180px 6px no-repeat rgb(68, 68, 68);
+    color: rgb(51, 51, 51);
+}
+
+.dj-main li:hover ul.dj-submenu li a.dj-more-active {
+    background: 180px 6px no-repeat rgb(68, 68, 68);
+    color: rgb(51, 51, 51);
+}
+
+.dj-main li:hover ul.dj-submenu li a.dj-more-active:hover {
+    border: none rgb(51, 51, 51);
+    background: 180px 6px no-repeat rgb(68, 68, 68);
+}
+
+.dj-main li:hover li:hover ul,
+.dj-main li:hover li:hover li:hover ul,
+.dj-main li:hover li:hover li:hover li:hover ul,
+.dj-main li:hover li:hover li:hover li:hover li:hover ul {
+    left: 190px;
+    top: -4px;
+    background: rgb(68, 68, 68);
+    padding: 0px;
+    border: 0px solid rgb(11, 77, 151);
+    white-space: nowrap;
+    width: 190px;
+    z-index: 400;
+    height: auto;
+}
+
+.dj-main ul,
+.dj-main li:hover ul ul,
+.dj-main li:hover li:hover ul ul,
+.dj-main li:hover li:hover li:hover ul ul,
+.dj-main li:hover li:hover li:hover li:hover ul ul {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+    width: 0px;
+    height: 0px;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: left;
+}
+
+.dj-main li:hover li:hover a.dj-more,
+.dj-main li:hover li:hover li:hover a.dj-more,
+.dj-main li:hover li:hover li:hover li:hover a.dj-more,
+.dj-main li:hover li:hover li:hover li:hover li:hover a.dj-more {
+    background: 180px 6px no-repeat rgb(82, 47, 39);
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+
+.dj-main li:hover li:hover li a.dj-more,
+.dj-main li:hover li:hover li:hover li a.dj-more,
+.dj-main li:hover li:hover li:hover li:hover li a.dj-more {
+    background: url("../images/arrow.gif") 180px 6px no-repeat rgb(87, 111, 133);
+    color: rgb(0, 0, 0);
+    border-color: rgb(80, 181, 208);
+}

@@ -1,0 +1,27 @@
+.jdform input[type="text"] {
+    height: 25px;
+    width: 92%;
+}
+
+.jdform input[type="email"] {
+    height: 25px;
+    width: 92%;
+}
+
+.jdform button[type="submit"] {
+    height: 35px;
+    width: auto;
+}
+
+#contact {
+    padding: 20px 0px 00px 0px;
+}
+
+.jdform .controls {
+    margin-left: 0px !important;
+}
+
+.jdform .control-group {
+    float: left;
+    width: 23%;
+}

@@ -1,0 +1,75 @@
+.favimagehover {
+    position: relative;
+    overflow: hidden;
+}
+
+.favimagehover-uploadimage {
+    height: 100%;
+    text-align: center;
+    line-height: 0;
+}
+
+.favimagehover-uploadimage:hover,
+.favimagehover-uploadimage:focus {
+    opacity: 0;
+}
+
+.favimagehover-uploadimage img {
+    margin: 0px auto;
+    display: block;
+}
+
+h3.favimagehover-title {
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.favimagehover-title span {
+    vertical-align: middle;
+}
+
+.favimagehover-image {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    top: 0px;
+    left: 0px;
+}
+
+.favimagehover-image:hover,
+.favimagehover-image:focus {
+    opacity: 0.8;
+    transition: all 400ms linear 0s;
+}
+
+.favimagehover-image p.favimagehover-text {
+    padding: 8% 8% 0px;
+}
+
+.favimagehover-readmore {
+    display: none;
+}
+
+.favimagehover-readmore {
+    display: none;
+}
+
+.favimagehover-readmore a {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .favimagehover-image p.favimagehover-text {
+        margin-bottom: 0px;
+        padding: 4% 4% 0px;
+        font-size: 12px !important;
+    }
+    h3.favimagehover-title {
+        text-align: center;
+    }
+    .favimagehover-readmore {
+        font-size: 12px !important;
+    }
+}
